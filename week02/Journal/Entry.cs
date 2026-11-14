@@ -19,4 +19,19 @@ public class Entry
         Console.WriteLine($"Prompt: {_promptText}");
         Console.WriteLine($"Entry: {_entryText}");
     }
+    
+    public string Date
+    {
+        get { return _date; }
+    }
+
+    public string PromptText
+    {
+        get { return _promptText; }
+    }
+
+    public string EntryText
+    {
+        get { return _entryText; }
+    }
 }
