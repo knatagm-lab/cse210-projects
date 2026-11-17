@@ -16,6 +16,14 @@ class Program
         Console.WriteLine("Decimal 1: " + fraction1.GetDecimalValue());
         Console.WriteLine("Decimal 2: " + fraction2.GetDecimalValue());
         Console.WriteLine("Decimal 3: " + fraction3.GetDecimalValue());
+    
+        Console.WriteLine("Numerator: " + fraction3.GetTop());
+        Console.WriteLine("Denominator: " + fraction3.GetBottom());
+    
+        fraction3.SetTop(8);
+        fraction3.SetBottom(2);
+
+        Console.WriteLine($"Updated Fraction 3: {fraction3.GetFractionString()}");
     }
 
 }
