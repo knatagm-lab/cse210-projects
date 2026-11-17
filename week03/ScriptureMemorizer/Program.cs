@@ -19,7 +19,7 @@ class Program
             string input = Console.ReadLine();
             if (input == "quit")
             {
-                break;
+                return;
             }
 
             scripture.HideRandomWords(3);
@@ -27,6 +27,5 @@ class Program
 
         Console.Clear();
         Console.WriteLine(scripture.GetDisplayText());
-        
     }
 }
